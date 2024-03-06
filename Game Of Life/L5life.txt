@@ -1,0 +1,425 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240302220052
+Username: ANDREWDESKTOP\atmcdon
+RunAs User: ANDREWDESKTOP\atmcdon
+Configuration Name: 
+Machine: ANDREWDESKTOP (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise' -StartInPath 'C:\dev\T200\Game Of Life' }
+Process ID: 298572
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is L5life.txt
+PS C:\dev\T200\Game Of Life> & '.\bin\Debug\Game Of Life.exe'
+
+Conway's Game of Life is a zero-player game created by mathematician John Horton Conway in 1970.
+It simulates cellular automaton on a grid where cells live or die based on simple rules relating
+to neighboring cells. The game illustrates how complex patterns can emerge from basic rules,
+showcasing phenomena like self-organization and emergence. It's not just a game but a mathematical
+model used for exploring computation, physics, and theoretical biology concepts.
+
+500X4000
+
+How many generations in this sim:
+5
+How many rows do you want in the game field:
+75
+How many columns do you want in the game field:
+75
+How many random generations would you want on the screen?
+If you want the default just press input < 0 >
+0
+Generation: #1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          @@@@@@@@ @@@@@   @@@      @@@@@@@ @@@@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation: #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           @@@@@@   @@@     @        @@@@@   @@@
+                           @@@@@@   @@@     @        @@@@@   @@@
+                           @@@@@@   @@@     @        @@@@@   @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation: #3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            @@@@     @                @@@     @
+                           @    @   @ @              @   @   @ @
+                          @      @ @   @   @@@      @     @ @   @
+                           @    @   @ @              @   @   @ @
+                            @@@@     @                @@@     @
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation: #4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             @@                        @
+                            @@@@     @                @@@     @
+                           @@@@@@   @@@     @        @@@@@   @@@
+                          @@    @@ @@ @@    @       @@   @@ @@ @@
+                           @@@@@@   @@@     @        @@@@@   @@@
+                            @@@@     @                @@@     @
+                             @@                        @
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation: #5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            @  @                      @@@
+                           @    @   @@@              @   @   @@@
+                          @      @ @   @            @     @ @   @
+                          @      @ @   @   @@@      @     @ @   @
+                          @      @ @   @            @     @ @   @
+                           @    @   @@@              @   @   @@@
+                            @  @                      @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Elapsed Time00:00:00.6121864
+PS C:\dev\T200\Game Of Life>
+PS C:\dev\T200\Game Of Life> stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240302220141
+**********************
